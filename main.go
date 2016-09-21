@@ -34,6 +34,7 @@ func httpServ() {
 
 	port := port()
 
+	log.Println("Starting server ...")
 	if err := http.ListenAndServe(fmt.Sprintf(":%s", port), nil); err != nil {
 		panic(err)
 	}
