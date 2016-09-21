@@ -28,7 +28,6 @@ Options
 | s | run http server on localhost:8080 (using env:GO_SAMPLE_HTTP_PORT if you want to change the port) |
 
 
-
 Run on Docker
 --------------
 
