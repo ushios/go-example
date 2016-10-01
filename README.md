@@ -1,12 +1,12 @@
-ushios/go-sample
+ushios/go-example
 ===============
-golang sample app
+golang example app
 
 Installation
 -------------
 
 ```bash
-$ go get github.com/ushios/go-sample
+$ go get github.com/ushios/go-example
 ```
 
 
@@ -14,7 +14,7 @@ Samples
 --------
 
 ```bash
-$ go-sample -o
+$ go-example -o
 Hello, World
 ```
 
@@ -31,11 +31,11 @@ Options
 Run on Docker
 --------------
 
-[ushios/go-sample@docker](https://hub.docker.com/r/ushios/go-sample/)
+[ushios/go-example@docker](https://hub.docker.com/r/ushios/go-example/)
 
 
 ```bash
-$ docker run -p 80:8080 ushios/go-sample
+$ docker run -p 80:8080 ushios/go-example
 ```
 
 Checking `localhost`
@@ -47,10 +47,10 @@ Hello, World
 ##### local
 
 ```bash
-$ docker build -t go-sample .
-$ docker run -it --rm --name run-go-sample -p 80:8080 go-sample
+$ docker build -t go-example .
+$ docker run -it --rm --name run-go-example -p 80:8080 go-example
 ```
 
 ##### Arukas
 
-run in https://gosample.arukascloud.io
+run in https://goexample.arukascloud.io

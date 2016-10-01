@@ -41,7 +41,7 @@ func httpServ() {
 }
 
 func port() string {
-	port := os.Getenv("GO_SAMPLE_HTTP_PORT")
+	port := os.Getenv("GO_EXAMPLE_HTTP_PORT")
 	if port == "" {
 		port = "8080"
 	}
